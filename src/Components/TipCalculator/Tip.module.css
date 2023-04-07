@@ -1,0 +1,20 @@
+.tip-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6px;
+}
+
+.tip-container span {
+    padding: 4px 20px;
+    background-color: #02474A;
+    border-radius: 6px;
+    color: white;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+}
+
+.tip-container .selected-tip {
+    background-color: #5a9ca2;
+    color: #02474A;
+}

@@ -1,0 +1,30 @@
+header {
+    background-color: #214B4A;
+    display: flex;
+    padding: 10px 40px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+header>ul {
+    display: flex;
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+header>ul>li {
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.2s;
+}
+
+header>ul>li:first-of-type {
+    color: #59A209;
+}
+
+header>ul>li:hover {
+    color: #59A209;
+}
